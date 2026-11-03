@@ -7,3 +7,10 @@ import { Component } from '@angular/core';
   templateUrl: './posts.html',
 })
 export class Posts {}
+
+export interface Post {
+userId: number;
+id: number;
+title: string;
+body: string;
+}
