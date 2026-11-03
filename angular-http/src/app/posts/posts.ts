@@ -1,10 +1,3 @@
-
-export interface Post {
-userId: number;
-id: number;
-title: string;
-body: string;
-}
 import { Component, inject, signal } from '@angular/core';
 import { JsonPipe } from '@angular/common';
 import { HttpErrorResponse } from '@angular/common/http';
